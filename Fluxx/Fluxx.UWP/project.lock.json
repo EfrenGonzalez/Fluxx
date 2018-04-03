@@ -22272,16 +22272,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "c:\\users\\eduar\\documents\\visual studio 2017\\Projects\\Fluxx\\Fluxx\\Fluxx.UWP\\Fluxx.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\eduar\\Documents\\GitHub\\Fluxx\\Fluxx\\Fluxx\\Fluxx.UWP\\Fluxx.UWP.csproj",
       "projectName": "Fluxx.UWP",
-      "projectPath": "c:\\users\\eduar\\documents\\visual studio 2017\\Projects\\Fluxx\\Fluxx\\Fluxx.UWP\\Fluxx.UWP.csproj",
-      "projectJsonPath": "c:\\users\\eduar\\documents\\visual studio 2017\\Projects\\Fluxx\\Fluxx\\Fluxx.UWP\\project.json",
+      "projectPath": "C:\\Users\\eduar\\Documents\\GitHub\\Fluxx\\Fluxx\\Fluxx\\Fluxx.UWP\\Fluxx.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\eduar\\Documents\\GitHub\\Fluxx\\Fluxx\\Fluxx\\Fluxx.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "c:\\users\\eduar\\documents\\visual studio 2017\\Projects\\Fluxx\\Fluxx\\Fluxx\\Fluxx.csproj": {
-              "projectPath": "c:\\users\\eduar\\documents\\visual studio 2017\\Projects\\Fluxx\\Fluxx\\Fluxx\\Fluxx.csproj"
+            "C:\\Users\\eduar\\Documents\\GitHub\\Fluxx\\Fluxx\\Fluxx\\Fluxx\\Fluxx.csproj": {
+              "projectPath": "C:\\Users\\eduar\\Documents\\GitHub\\Fluxx\\Fluxx\\Fluxx\\Fluxx\\Fluxx.csproj"
             }
           }
         }

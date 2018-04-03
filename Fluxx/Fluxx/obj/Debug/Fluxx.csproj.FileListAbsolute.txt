@@ -13,3 +13,18 @@ c:\users\eduar\documents\visual studio 2017\Projects\Fluxx\Fluxx\Fluxx\obj\Debug
 c:\users\eduar\documents\visual studio 2017\Projects\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.App.xaml.g.cs
 c:\users\eduar\documents\visual studio 2017\Projects\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.dll
 c:\users\eduar\documents\visual studio 2017\Projects\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.pdb
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\bin\Debug\Fluxx.dll
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\bin\Debug\Fluxx.pdb
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.csprojResolveAssemblyReference.cache
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.MainPage.xaml.g.cs
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.App.xaml.g.cs
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.dll
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.pdb
