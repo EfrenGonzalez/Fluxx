@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:Fluxx"
              x:Class="Fluxx.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
+	<Label Text="B:" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
