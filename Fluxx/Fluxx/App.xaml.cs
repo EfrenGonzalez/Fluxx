@@ -12,7 +12,7 @@ namespace Fluxx
         public App()
         {
             InitializeComponent();
-            MainPage = new Fluxx.MainPage();
+            MainPage = new NavigationPage(new View.welcomePage());
         }
 
         protected override void OnStart()

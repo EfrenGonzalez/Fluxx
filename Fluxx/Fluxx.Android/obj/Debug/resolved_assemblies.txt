@@ -24,9 +24,9 @@ C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx.Android\obj\Debug\androi
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx.Android\obj\Debug\android\assets\System.Resources.ResourceManager.dll
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx.Android\obj\Debug\android\assets\System.Diagnostics.Tools.dll
-C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx.Android\obj\Debug\android\assets\System.Collections.dll
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx.Android\obj\Debug\android\assets\System.Collections.dll
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx.Android\obj\Debug\android\assets\System.ObjectModel.dll
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx.Android\obj\Debug\android\assets\System.Globalization.dll
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx.Android\obj\Debug\android\assets\System.ComponentModel.dll

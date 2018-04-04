@@ -24,7 +24,13 @@ C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\bin\Debug\Xamarin.Forms.
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.csprojResolveAssemblyReference.cache
-C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.MainPage.xaml.g.cs
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.App.xaml.g.cs
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.dll
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.pdb
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.View.welcomePage.xaml.g.cs
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.View.mainPage.xaml.g.cs
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.View.waitPage.xaml.g.cs
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.View.newgamePage.xaml.g.cs
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.View.rulePage.xaml.g.cs
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.View.keeperPage.xaml.g.cs
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.View.handPage.xaml.g.cs
