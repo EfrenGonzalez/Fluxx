@@ -15,6 +15,8 @@ namespace Fluxx.View
         public welcomePage()
         {
             InitializeComponent();
+            if (!Application.Current.Properties.ContainsKey("userName"))
+                Application.Current.Properties["userName"] = "Usuario";
         }
 
         async void actionButtonEnter(object sender, System.EventArgs e)

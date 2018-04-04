@@ -32,5 +32,9 @@ namespace Fluxx.View
             await Navigation.PushAsync(new View.waitPage());
         }
 
+        async void actionButtonUser(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new View.userPage());
+        }
     }
 }

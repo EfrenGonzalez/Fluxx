@@ -34,3 +34,4 @@ C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.View.new
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.View.rulePage.xaml.g.cs
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.View.keeperPage.xaml.g.cs
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.View.handPage.xaml.g.cs
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.View.userPage.xaml.g.cs
