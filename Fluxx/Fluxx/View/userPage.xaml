@@ -7,7 +7,7 @@
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
             <Entry x:Name="userEntry" Keyboard="Text" Placeholder="Usuario"/>
-            <Button Text="Guardar" Clicked="actionButtonSave" />
+            <Button Text="Continuar" Clicked="actionButtonSave" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

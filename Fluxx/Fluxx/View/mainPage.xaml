@@ -9,7 +9,6 @@
             <Button Text="Crear un nuevo juego" Clicked="actionButtonNewWait"/>
             <Button Text="Entrar a una nueva partida" Clicked="actionButtonNewGame"/>
             <Button Text="Entrar a una partida aleatoria" Clicked="actionButtonWait"/>
-            <Button Text="Usuario" Clicked="actionButtonUser"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -22,7 +22,7 @@ namespace Fluxx.View
         async void actionButtonSave(object sender, System.EventArgs e)
         {
             Application.Current.Properties["userName"] = userEntry.Text;
-            await Navigation.PopAsync();
+            await Navigation.PushAsync(new View.waitPage());
         }
     }
 }

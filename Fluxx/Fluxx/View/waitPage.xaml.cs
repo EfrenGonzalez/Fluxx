@@ -15,15 +15,18 @@ namespace Fluxx.View
         public waitPage()
         {
             InitializeComponent();
-            int i = 0;
-            if (i == -1)
-            {
+            labelGame.Text = Application.Current.Properties["currentGame"].ToString();
+            labelPlayer1.Text = Application.Current.Properties["userName"].ToString();
+            labelPlayer2.Text = "Esperando";
+            labelPlayer3.Text = "Esperando";
+            labelPlayer4.Text = "Esperando";
+            labelPlayer5.Text = "Esperando";
+            labelPlayer6.Text = "Esperando";
+        }
 
-            }
-            else
-            {
-
-            }
+        async void actionButtonHand(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new View.handPage());
         }
     }
 }

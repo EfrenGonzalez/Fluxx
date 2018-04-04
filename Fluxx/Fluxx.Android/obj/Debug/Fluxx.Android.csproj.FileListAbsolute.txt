@@ -98,3 +98,7 @@ C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx.Android\obj\Debug\androi
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx.Android\obj\Debug\res\drawable\fluxxicon.png
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx.Android\obj\Debug\res\drawable-hdpi\fluxxicon.png
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx.Android\obj\Debug\res\drawable-xhdpi\fluxxicon.png
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx.Android\obj\Debug\res\drawable-xxhdpi\fluxxicon.png

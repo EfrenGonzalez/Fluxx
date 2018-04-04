@@ -19,7 +19,8 @@ namespace Fluxx.View
 
         async void actionButtonWait(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new View.waitPage());
+            Application.Current.Properties["currentGame"] = gameEntry.Text;
+            await Navigation.PushAsync(new View.userPage());
         }
     }
 }
