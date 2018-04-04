@@ -17,16 +17,19 @@ namespace Fluxx.View
             InitializeComponent();
         }
 
+        //Se genera un juego nuevo como principal
         async void actionButtonNewWait(object sender, System.EventArgs e)
         {
             await Navigation.PushAsync(new View.waitPage());
         }
 
+        //Se entra a la pestaña para agregar un juego actual
         async void actionButtonNewGame(object sender, System.EventArgs e)
         {
             await Navigation.PushAsync(new View.newgamePage());
         }
 
+        //Se entra a una partida aleatoria
         async void actionButtonWait(object sender, System.EventArgs e)
         {
             await Navigation.PushAsync(new View.waitPage());

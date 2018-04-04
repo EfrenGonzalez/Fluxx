@@ -15,6 +15,7 @@ namespace Fluxx.View
         public welcomePage()
         {
             InitializeComponent();
+            Application.Current.Properties["currentGame"] = -1;
             if (!Application.Current.Properties.ContainsKey("userName"))
                 Application.Current.Properties["userName"] = "Usuario";
         }

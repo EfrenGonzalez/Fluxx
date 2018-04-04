@@ -6,7 +6,7 @@
         x:Class="Fluxx.View.userPage">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-            <Entry x:Name="userEntry" Keyboard="Text" TextChanged="TextChangedUser" Placeholder="Usuario"/>
+            <Entry x:Name="userEntry" Keyboard="Text" Placeholder="Usuario"/>
             <Button Text="Guardar" Clicked="actionButtonSave" />
         </StackLayout>
     </ContentPage.Content>

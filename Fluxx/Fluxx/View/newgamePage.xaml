@@ -5,8 +5,9 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
         x:Class="Fluxx.View.newgamePage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin Forms!" />
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Entry x:Name="gameEntry" Keyboard="Numeric" Placeholder="Número de juego"/>
+            <Button Text="Entrar" Clicked="actionButtonWait" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
