@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+        NavigationPage.HasNavigationBar="False"
+        xmlns="http://xamarin.com/schemas/2014/forms"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        x:Class="Fluxx.View.waitPage">
+    <ContentPage.Content>
+        <Grid HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Grid.Row="0" Grid.ColumnSpan="3" 
+                   x:Name="labelGame" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Label Grid.Row="1" Grid.Column="0"
+                   x:Name="labelPlayer1" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Label Grid.Row="1" Grid.Column="1"
+                   x:Name="labelPlayer2" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Label Grid.Row="1" Grid.Column="2"
+                   x:Name="labelPlayer3" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Label Grid.Row="2" Grid.Column="0"
+                   x:Name="labelPlayer4" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Label Grid.Row="2" Grid.Column="1"
+                   x:Name="labelPlayer5" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Label Grid.Row="2" Grid.Column="2"
+                   x:Name="labelPlayer6" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Button Grid.Row="3" Grid.ColumnSpan="3" Text="Continuar" Clicked="actionButtonHand"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

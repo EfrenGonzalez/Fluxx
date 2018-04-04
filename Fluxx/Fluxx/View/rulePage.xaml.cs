@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xamarin.Forms;
 
-namespace Fluxx
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace Fluxx.View
 {
-    public partial class MainPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class rulePage : ContentPage
     {
-        public MainPage()
+        public rulePage()
         {
             InitializeComponent();
         }

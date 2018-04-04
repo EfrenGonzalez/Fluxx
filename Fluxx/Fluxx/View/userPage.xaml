@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+        NavigationPage.HasNavigationBar="False"
+        xmlns="http://xamarin.com/schemas/2014/forms"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        x:Class="Fluxx.View.userPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Entry x:Name="userEntry" Keyboard="Text" Placeholder="Usuario"/>
+            <Button Text="Continuar" Clicked="actionButtonSave" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
