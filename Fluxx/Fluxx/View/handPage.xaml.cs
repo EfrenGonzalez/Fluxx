@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Fluxx.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,9 @@ namespace Fluxx.View
         public handPage()
         {
             InitializeComponent();
+            string s = new Card().Codificar();
+            var Cards = new Card().Decodificar(s);
+            handListView.ItemsSource = Cards;
         }
     }
 }
