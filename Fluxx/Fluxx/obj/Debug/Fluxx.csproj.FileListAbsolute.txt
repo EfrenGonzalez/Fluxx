@@ -35,3 +35,4 @@ C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.View.rul
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.View.keeperPage.xaml.g.cs
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.View.handPage.xaml.g.cs
 C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.View.userPage.xaml.g.cs
+C:\Users\eduar\Documents\GitHub\Fluxx\Fluxx\Fluxx\Fluxx\obj\Debug\Fluxx.View.gamePage.xaml.g.cs

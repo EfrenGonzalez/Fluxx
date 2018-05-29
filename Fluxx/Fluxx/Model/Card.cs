@@ -8,11 +8,19 @@ namespace Fluxx.Model
 {
     class Card
     {
-        int Id;
-        int Type;
-        string Name;
-        Tuple<int, int> Goal;
-        Tuple<int, int> Rule;
+        private int id;
+        private int type;
+        private string name;
+        private Tuple<int, int> goal;
+        private Tuple<int, int> rule;
+        private string nametype;
+
+        public int Id { get => id; set => id = value; }
+        public int Type { get => type; set => type = value; }
+        public string Name { get => name; set => name = value; }
+        public Tuple<int, int> Goal { get => goal; set => goal = value; }
+        public Tuple<int, int> Rule { get => rule; set => rule = value; }
+        public string Nametype { get => nametype; set => nametype = value; }
 
         /*Para type
          * Type == 1 -> Keeper
@@ -34,9 +42,18 @@ namespace Fluxx.Model
             Name = name;
             Goal = goal;
             Rule = rule;
+            Asignar();
         }
 
         public Card() { }
+
+        void Asignar()
+        {
+            if (type == 1) nametype = "Keeper";
+            if (type == 2) nametype = "Regla";
+            if (type == 3) nametype = "Meta";
+            if (type == 4) nametype = "Accion";
+        }
 
         void Define(int id, int type, string name, Tuple<int, int> goal, Tuple<int, int> rule)
         {
@@ -45,6 +62,7 @@ namespace Fluxx.Model
             Name = name;
             Goal = goal;
             Rule = rule;
+            Asignar();
         }
 
         public Card(int id)
@@ -88,7 +106,7 @@ namespace Fluxx.Model
             List<Card> Cards = new List<Card>();
             string[] Ids = HashString.Split(',');
             foreach (var Id in Ids)
-                Cards.Add(new Card(Convert.ToInt32(Id)));
+                if (Id.CompareTo("") != 0) Cards.Add(new Card(Convert.ToInt32(Id)));
             return Cards;
         }
 
@@ -100,8 +118,8 @@ namespace Fluxx.Model
             Random rnd = new Random();
             while (swaps > 0)
             {
-                int i = rnd.Next(47, 1);
-                int j = rnd.Next(47, i);
+                int i = rnd.Next(0, 46);
+                int j = rnd.Next(0, 46);
                 int k = Ids[i];
                 Ids[i] = Ids[j];
                 Ids[j] = k;
@@ -112,5 +130,26 @@ namespace Fluxx.Model
             Hash += Convert.ToString(Ids[46]);
             return Hash;
         }
+
+        public string CardString(List<Card> Cards)
+        {
+            string Hash = "";
+            for (int i = 0; i < Cards.Count - 1; i++) Hash += Convert.ToString(Cards[i].id) + ",";
+            if (Cards.Count>0) Hash += Convert.ToString(Cards[Cards.Count-1].id);
+            return Hash;
+        }
+
+        public Card GetCard(int i, string pack)
+        {
+            string[] cards = pack.Split(',');
+            return new Card(Convert.ToInt32(cards[i]));
+        }
+
+        public string GetId(int i, string pack)
+        {
+            string[] cards = pack.Split(',');
+            return cards[i];
+        }
+
     }
 }

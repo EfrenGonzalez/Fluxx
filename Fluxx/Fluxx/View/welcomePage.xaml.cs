@@ -16,6 +16,14 @@ namespace Fluxx.View
         {
             InitializeComponent();
             Application.Current.Properties["currentGame"] = "-1";
+            Application.Current.Properties["currentHand"] = "";
+            Application.Current.Properties["currentKeeper"] = "";
+            Application.Current.Properties["currentGoal"] = "";
+            Application.Current.Properties["currentTake"] = "";
+            Application.Current.Properties["currentPlay"] = "";
+            Application.Current.Properties["currentPack"] = "";
+            Application.Current.Properties["currentCard"] = "";
+
             if (!Application.Current.Properties.ContainsKey("userName"))
                 Application.Current.Properties["userName"] = "Usuario";
         }
