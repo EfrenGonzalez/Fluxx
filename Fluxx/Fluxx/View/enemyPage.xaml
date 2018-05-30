@@ -1,15 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage
-        NavigationPage.HasNavigationBar="False"
-        xmlns="http://xamarin.com/schemas/2014/forms"
-        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-        x:Class="Fluxx.View.rulePage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fluxx.View.enemyPage">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
-            <Label Text="Reglas" HorizontalOptions="CenterAndExpand"/>
-            <ListView x:Name="ruleListView"
-                      ItemSelected="ruleListView_ItemSelected"
-                      ItemTapped="ruleListView_ItemTapped">
+            <Label Text="Mano enemiga" HorizontalOptions="CenterAndExpand"/>
+            <ListView x:Name="keeperListView"
+                      ItemSelected="keeperListView_ItemSelected"
+                      ItemTapped="keeperListView_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

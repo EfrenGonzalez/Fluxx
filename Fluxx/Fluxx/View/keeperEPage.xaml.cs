@@ -11,30 +11,30 @@ using Xamarin.Forms.Xaml;
 namespace Fluxx.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class keeperPage : ContentPage
+    public partial class keeperEPage : ContentPage
     {
-        public keeperPage()
+        public keeperEPage()
         {
             InitializeComponent();
-            string keepers = Application.Current.Properties["currentKeeper"].ToString();
+            string keepers = Application.Current.Properties["currentKeeperE"].ToString();
             string goal = Application.Current.Properties["currentGoal"].ToString();
             Card card = new Card();
             var Cards = new Card().Decodificar(keepers);
             keeperListView.ItemsSource = Cards;
             if (Application.Current.Properties["currentGoal"].ToString().CompareTo("") == 0)
                 GoalName.Text = "Aún no existe una meta";
-            else GoalName.Text = new Card(Convert.ToInt32(Application.Current.Properties["currentGoal"].ToString())).Name;            
+            else GoalName.Text = new Card(Convert.ToInt32(Application.Current.Properties["currentGoal"].ToString())).Name;
             Device.StartTimer(TimeSpan.FromSeconds(1), () =>
             {
-                if (keepers.CompareTo(Application.Current.Properties["currentKeeper"].ToString())!=0)
+                if (keepers.CompareTo(Application.Current.Properties["currentKeeperE"].ToString()) != 0)
                 {
-                    keepers = Application.Current.Properties["currentKeeper"].ToString();
+                    keepers = Application.Current.Properties["currentKeeperE"].ToString();
                     Cards = new Card().Decodificar(keepers);
                     keeperListView.ItemsSource = Cards;
                 }
                 if (goal.CompareTo(Application.Current.Properties["currentGoal"].ToString()) != 0)
                 {
-                    goal = Application.Current.Properties["currentKeeper"].ToString();
+                    goal = Application.Current.Properties["currentKeeperE"].ToString();
                     GoalName.Text = new Card(Convert.ToInt32(Application.Current.Properties["currentGoal"].ToString())).Name;
                 }
                 return true;

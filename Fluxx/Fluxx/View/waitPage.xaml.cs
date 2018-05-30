@@ -36,14 +36,16 @@ namespace Fluxx.View
             int last = first + 1;
             for (int i = first * 5; i < 5 * last - 1; i++) shand += card.GetId(i, pack) + ",";
             shand += card.GetId(5 * last - 1, pack);
-
+            string ehand = card.GetId(6, pack);
+            for (int i = 7; i <= 10; i++) ehand += "," + card.GetId(i, pack);
             Application.Current.Properties["currentKeeper"] = "";
             Application.Current.Properties["currentGoal"] = "";
-            Application.Current.Properties["currentCard"] = "6";
-            Application.Current.Properties["currentTake"] = "1";
-            Application.Current.Properties["currentPlay"] = "1";
+            Application.Current.Properties["currentCard"] = "11";
+            Application.Current.Properties["currentTake"] = "48";
+            Application.Current.Properties["currentPlay"] = "49";
             Application.Current.Properties["currentPack"] = pack;
             Application.Current.Properties["currentHand"] = shand;
+            Application.Current.Properties["currentEnemy"] = ehand;
 
             await Navigation.PushAsync(new View.gamePage());
         }

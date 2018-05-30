@@ -7,4 +7,6 @@
     <local:handPage Title="Mano"/>
     <local:keeperPage Title="Keepers"/>
     <local:rulePage Title="Reglas"/>
+    <local:enemyPage Title="Enemigo"/>
+    <local:keeperEPage Title="K Enemigo"/>
 </TabbedPage>

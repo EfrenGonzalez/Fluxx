@@ -91,6 +91,8 @@ namespace Fluxx.Model
             else if (id == 45) Define(45, 3, "Keeper 9 + Keeper 15", new Tuple<int, int>(9, 15), Zero);
             else if (id == 46) Define(46, 3, "Keeper 10 + Keeper 9", new Tuple<int, int>(10, 9), Zero);
             else if (id == 47) Define(47, 3, "Keeper 17 + Keeper 11", new Tuple<int, int>(17, 11), Zero);
+            else if (id <= 48) Define(48, 2, "Toma 1", Zero, new Tuple<int, int>(1, 1));
+            else if (id <= 49) Define(49, 2, "Juega 1", Zero, new Tuple<int, int>(2, 1));
         }
 
         public bool Win(List<Card> Cards)

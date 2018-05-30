@@ -23,6 +23,8 @@ namespace Fluxx.View
             Application.Current.Properties["currentPlay"] = "";
             Application.Current.Properties["currentPack"] = "";
             Application.Current.Properties["currentCard"] = "";
+            Application.Current.Properties["currentEnemy"] = "";
+            Application.Current.Properties["currentKeeperE"] = "";
 
             if (!Application.Current.Properties.ContainsKey("userName"))
                 Application.Current.Properties["userName"] = "Usuario";

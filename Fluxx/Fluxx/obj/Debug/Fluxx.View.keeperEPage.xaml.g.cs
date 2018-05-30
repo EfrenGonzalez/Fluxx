@@ -11,19 +11,19 @@
 namespace Fluxx.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\eduar\\Documents\\GitHub\\Fluxx\\Fluxx\\Fluxx\\Fluxx\\View\\rulePage.xaml")]
-    public partial class rulePage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\eduar\\Documents\\GitHub\\Fluxx\\Fluxx\\Fluxx\\Fluxx\\View\\keeperEPage.xaml")]
+    public partial class keeperEPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.ListView ruleListView;
+        private global::Xamarin.Forms.ListView keeperListView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Label GoalName;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(rulePage));
-            ruleListView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "ruleListView");
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(keeperEPage));
+            keeperListView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "keeperListView");
             GoalName = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "GoalName");
         }
     }
